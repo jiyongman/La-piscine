@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
+/*   By: kichlee <kichlee@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/04 21:31:27 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/09/04 22:49:27 by jiyochoi         ###   ########.fr       */
+/*   Created: 2022/09/04 21:22:49 by kichlee           #+#    #+#             */
+/*   Updated: 2022/09/04 21:22:53 by kichlee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,18 +21,19 @@ int	**init_room(void)
 	room = (int **) malloc(sizeof(int *) * 4);
 	if (room == 0)
 		return (0);
-	i = -1;
-	while (++i < 4)
+	i = 0;
+	while (i < 4)
 	{
 		room[i] = (int *) malloc(sizeof(int) * 4);
 		if (room == 0)
 			return (0);
+		i++;
 	}
-	i = -1;
-	while (++i < 4)
+	i = 0;
+	j = 0;
+	while (i++ < 4)
 	{
-		j = -1;
-		while (++j < 4)
+		while (j++ < 4)
 			room[i][j] = 0;
 	}
 	return (room);
