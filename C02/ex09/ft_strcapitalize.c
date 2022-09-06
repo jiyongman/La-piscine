@@ -6,11 +6,11 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 19:51:04 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/09/05 17:11:30 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/06 12:54:37 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strlowcase2(char *str)
+char	*ft_strlowcase(char *str)
 {
 	int	i;
 
@@ -29,7 +29,7 @@ char	*ft_strcapitalize(char *str)
 	int	i;
 
 	i = 1;
-	ft_strlowcase2(str);
+	ft_strlowcase(str);
 	while (str[i])
 	{
 		if ((str[i - 1] < 'a' || str[i - 1] > 'z')
