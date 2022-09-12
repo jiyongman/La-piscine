@@ -6,7 +6,7 @@
 /*   By: kichlee <kichlee@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/04 21:22:49 by kichlee           #+#    #+#             */
-/*   Updated: 2022/09/04 21:22:53 by kichlee          ###   ########.fr       */
+/*   Updated: 2022/09/12 19:58:20 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,15 @@ int	**init_room(void)
 	while (i < 4)
 	{
 		room[i] = (int *) malloc(sizeof(int) * 4);
-		if (room == 0)
+		if (room[i] == 0)
 			return (0);
 		i++;
 	}
-	i = 0;
-	j = 0;
-	while (i++ < 4)
+	i = -1;
+	while (++i < 4)
 	{
-		while (j++ < 4)
+		j = -1;
+		while (++j < 4)
 			room[i][j] = 0;
 	}
 	return (room);
