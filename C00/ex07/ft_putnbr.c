@@ -6,7 +6,7 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/25 21:59:40 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/08/29 23:59:25 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/08 19:12:00 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,13 @@ void	ft_putnbr(int nb)
 	else if (nb < 0)
 	{
 		ft_putchar('-');
-		nb = -nb;
-		ft_putnbr(nb / 10);
+		ft_putnbr(-nb);
 	}
 	else if (nb > 9)
 	{
 		ft_putnbr(nb / 10);
+		ft_putnbr(nb % 10);
 	}
-	ft_putchar(nb % 10 + '0');
+	else
+		ft_putchar(nb % 10 + '0');
 }

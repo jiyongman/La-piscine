@@ -6,11 +6,9 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/29 11:19:22 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/08/30 09:30:13 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/07 10:58:03 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_swap(int *a, int *b)
 {

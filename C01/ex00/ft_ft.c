@@ -6,11 +6,9 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/29 11:18:22 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/08/30 10:03:02 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/05 15:00:52 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_ft(int *nbr)
 {

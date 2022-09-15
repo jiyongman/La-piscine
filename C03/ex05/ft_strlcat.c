@@ -6,11 +6,9 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/31 16:41:48 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/09/01 18:16:12 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/06 19:43:33 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 int	ft_strlen(char *str)
 {

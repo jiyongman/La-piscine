@@ -6,11 +6,9 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/29 12:00:58 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/08/30 10:00:04 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/05 15:02:04 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_rev_int_tab(int *tab, int size)
 {

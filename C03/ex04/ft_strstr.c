@@ -6,11 +6,9 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/31 15:18:01 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/09/01 16:03:00 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/05 15:04:09 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 char	*ft_strstr(char *str, char *to_find)
 {

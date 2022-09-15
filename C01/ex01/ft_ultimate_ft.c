@@ -6,11 +6,9 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/29 11:18:43 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/08/30 10:08:39 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/05 15:00:59 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_ultimate_ft(int *********nbr)
 {

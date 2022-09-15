@@ -6,11 +6,9 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/31 12:39:25 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/09/01 15:35:55 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/07 10:55:38 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 int	ft_strcmp(char *s1, char *s2)
 {

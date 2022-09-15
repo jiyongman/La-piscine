@@ -6,7 +6,7 @@
 /*   By: kichlee <kichlee@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/04 21:22:49 by kichlee           #+#    #+#             */
-/*   Updated: 2022/09/12 19:58:20 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/08 12:59:35 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,10 @@ int	**init_room(void)
 		i++;
 	}
 	i = -1;
-	while (++i < 4)
+	while (i++ < 4)
 	{
 		j = -1;
-		while (++j < 4)
+		while (j++ < 4)
 			room[i][j] = 0;
 	}
 	return (room);

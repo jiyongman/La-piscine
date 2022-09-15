@@ -6,7 +6,7 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 22:05:22 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/09/12 16:46:31 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/14 14:47:01 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ int	ft_valid(char *base)
 
 void	ft_putnbr_base(int nbr, char *base)
 {
-	int			base_len;
+	int	base_len;
 
 	if (ft_valid(base) == 1)
 		return ;

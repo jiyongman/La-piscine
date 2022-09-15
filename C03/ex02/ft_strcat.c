@@ -6,11 +6,9 @@
 /*   By: jiyochoi <jiyochoi@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/31 14:27:10 by jiyochoi          #+#    #+#             */
-/*   Updated: 2022/09/01 15:43:36 by jiyochoi         ###   ########.fr       */
+/*   Updated: 2022/09/12 22:41:27 by jiyochoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 char	*ft_strcat(char *dest, char *src)
 {
@@ -19,9 +17,7 @@ char	*ft_strcat(char *dest, char *src)
 
 	i = 0;
 	while (dest[i])
-	{
 		i++;
-	}
 	j = 0;
 	while (src[j])
 	{
